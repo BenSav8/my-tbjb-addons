@@ -15,4 +15,4 @@ makes it look like you sent every message
 
 ## ping.js
 
-lets you ping other people like in discord, playing a ping sound effect and highlighting their name in your message (if they have the addon too)
+lets you ping other people like in discord (everyone included, do /everyone on/off to turn this on and off), playing a ping sound effect (customizable by doing /ping) and highlighting their name in your message (if they have the addon too)
