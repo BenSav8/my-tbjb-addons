@@ -8,3 +8,7 @@ to use, follow these steps:
 ## fuwwy-mode.js
 
 tuwns evewy message into fuwwy stuff (bweaks urls) ( ͡° ͜ʖ ͡°) (ノಠ益ಠ)ノ
+
+## schizo-mode.js
+
+makes it look like you sent every message
