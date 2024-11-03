@@ -1,8 +1,8 @@
 # my tbjb addons
 to use, follow these steps:
-- install [TB#](https://dell-optiplex-790.github.io/tbjb/)
+- install [TBJB](https://dell-optiplex-790.github.io/tbjb/)
 - on trollbox, do /store
-- download the files you want and load them into TB#
+- download the files you want and load them into TBJB
 - go back to trollbox and they should be downloaded
 
 ## fuwwy-mode.js
