@@ -20,3 +20,7 @@ lets you ping other people like in discord (everyone included, do /everyone on/o
 ## imaginary-friend.js
 
 adds a new command, /spawn, that makes an imaginary friend appear and "talk"
+
+## preset-nicknames.js
+
+adds a new command, /nicks, that shows you your saved nicknames (using /addnick, which saves your current nickname) and lets you set a nickname to your current one (BROKEN) and remove a nickname (BROKEN, ALSO)
