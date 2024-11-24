@@ -21,6 +21,6 @@ lets you ping other people like in discord (everyone included, do /everyone on/o
 
 adds a new command, /spawn, that makes an imaginary friend appear and "talk"
 
-## preset-nicknames.js
+## tb-favicon.js
 
-adds a new command, /nicks, that shows you your saved nicknames (using /addnick, which saves your current nickname) and lets you set a nickname to your current one (BROKEN) and remove a nickname (BROKEN, ALSO)
+changes the favicon on the standalone trollbox page to the actual trollbox icon, also changes favicon when there's an unread message
