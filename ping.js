@@ -37,10 +37,10 @@ addons.register('messageReciever', function(data) {
         hasPinged = true;
 		if (document.hasFocus()) {
 			data.msg = '<span style="background-color: #ffff0020;">' + data.msg.replaceAll('@here', '@<span style="color: #c3ff00;">here</span>') + '</span>';
+			ping.play();
         } else {
 			data.msg = data.msg.replaceAll('@here', '@<span style="color: #c3ff00;">here</span>');
 		}
-		ping.play();
     }
     if (he.decode(data.msg).includes('@' + pseudo)) {
         hasPinged = true;
