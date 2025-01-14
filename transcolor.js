@@ -147,7 +147,17 @@ addons.register('messageSender', function(data) {
 		let temp = data.msg
 		data.msg = ''
 		socket.emit('user joined', pseudo, colors[parseInt(Math.random()*colors.length)], '', '')
-		socket.send(temp)
+		if (temp == "/transcolor on") {
+			data.msg = ''
+			printMsg({ date: Date.now(), nick: "~", color: "white", style: "opacity: 0.7;", home: 'local', msg: "Turned transcolor on." });
+			transcolor = true
+		} else if (temp == "/transcolor off") {
+			data.msg = ''
+			printMsg({ date: Date.now(), nick: "~", color: "white", style: "opacity: 0.7;", home: 'local', msg: "Turned transcolor off." });
+			transcolor = false
+		} else {
+			socket.send(temp)
+		}
 	}
 	if (data.msg == "/transcolor on") {
 		data.msg = ''
