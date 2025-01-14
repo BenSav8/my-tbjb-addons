@@ -31,3 +31,4 @@ adds a new command: /play `url`, that lets you play a sound that's less than 15 
 
 ## upcoming
 - markdown.js - adds markdown formatting
+- autoupdate.js - autoupdates some addons
