@@ -33,6 +33,12 @@ adds a new command: /play `url`, that lets you play a sound that's less than 15 
 
 adds a new command: /transcolor `on/off`, which when turned on makes every message change your color to a random one (breaks all commands except server-sided commands and /transcolor)
 
+## markdown.js
+
+adds markdown formatting:
+`*italic* **bold** ~~subscript~~ ^^superscript^^ ==highlight== [hyperlink](https://example.com)`
+`"# ", "## ", "### ", "#### ", "##### ", "###### " = headings `
+`--- = horizontal rule`
+
 ## upcoming
-- markdown.js - adds markdown formatting
 - autoupdate.js - autoupdates some addons
