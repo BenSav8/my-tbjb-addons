@@ -29,6 +29,10 @@ changes the favicon on the standalone trollbox page to the actual trollbox icon,
 
 adds a new command: /play `url`, that lets you play a sound that's less than 15 seconds to everyone else using the addon, also adds /mute `home` and /unmute `home` (SAVE!) which un/mutes the sounds someone sends making them not play sound, without having to block the person
 
+## transcolor.js
+
+adds a new command: /transcolor `on/off`, which when turned on makes every message change your color to a random one (breaks all commands except server-sided commands and /transcolor)
+
 ## upcoming
 - markdown.js - adds markdown formatting
 - autoupdate.js - autoupdates some addons
