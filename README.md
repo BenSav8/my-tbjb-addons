@@ -1,6 +1,6 @@
 # my tbjb addons
 to use, follow these steps:
-- install [TBJB](https://dell-optiplex-790.github.io/tbjb/)
+- install [TBJB](https://github.com/BenSav8/tbjb-tampermonkey)
 - on trollbox, do /store
 - download the files you want and load them into TBJB
 - go back to trollbox and they should be downloaded
