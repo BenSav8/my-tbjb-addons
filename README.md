@@ -15,7 +15,7 @@ makes it look like you sent every message
 
 ## ping.js (RECOMMENDED)
 
-lets you ping other people like in discord (everyone included, do /everyone on/off to turn this on and off), playing a ping sound effect (customizable by doing /ping) and highlighting their name in your message (if they have the addon too)
+lets you ping other people like in discord (everyone included, do /everyone `on/off` to turn this on and off), playing a ping sound effect (customizable by doing /ping) and highlighting their name in your message (if they have the addon too)
 
 ## imaginary-friend.js
 
@@ -27,4 +27,4 @@ changes the favicon on the standalone trollbox page to the actual trollbox icon,
 
 ## soundboard.js (RECOMMENDED)
 
-adds a new command: /play <url>, that lets you play a sound that's less than 15 seconds to everyone else using the addon, also adds /mute <home> and /unmute <home> (SAVE!) which un/mutes the sounds someone sends making them not play sound, without having to block the person
+adds a new command: /play `url`, that lets you play a sound that's less than 15 seconds to everyone else using the addon, also adds /mute `home` and /unmute `home` (SAVE!) which un/mutes the sounds someone sends making them not play sound, without having to block the person
