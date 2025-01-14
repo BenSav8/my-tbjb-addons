@@ -13,7 +13,7 @@ tuwns evewy message into fuwwy stuff (bweaks urls) ( ͡° ͜ʖ ͡°) (ノಠ益�
 
 makes it look like you sent every message
 
-## ping.js
+## ping.js (RECOMMENDED)
 
 lets you ping other people like in discord (everyone included, do /everyone on/off to turn this on and off), playing a ping sound effect (customizable by doing /ping) and highlighting their name in your message (if they have the addon too)
 
@@ -21,6 +21,10 @@ lets you ping other people like in discord (everyone included, do /everyone on/o
 
 adds a new command, /spawn, that makes an imaginary friend appear and "talk"
 
-## tb-favicon.js
+## tb-favicon.js (RECOMMENDED)
 
 changes the favicon on the standalone trollbox page to the actual trollbox icon, also changes favicon when there's an unread message
+
+## soundboard.js (RECOMMENDED)
+
+adds a new command: /play <url>, that lets you play a sound that's less than 15 seconds to everyone else using the addon, also adds /mute <home> and /unmute <home> (SAVE!) which un/mutes the sounds someone sends making them not play sound, without having to block the person
