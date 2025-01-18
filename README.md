@@ -15,11 +15,11 @@ makes it look like you sent every message
 
 ## ping.js (RECOMMENDED)
 
-lets you ping other people like in discord (everyone included, do /everyone `on/off` to turn this on and off), playing a ping sound effect (customizable by doing /ping) and highlighting their name in your message (if they have the addon too)
+lets you ping other people like in discord (everyone included, do /everyone `on/off` to turn this on and off, you can also use here), playing a ping sound effect (customizable by doing /ping) and highlighting their name in your message
 
 ## imaginary-friend.js
 
-adds a new command, /spawn, that makes an imaginary friend appear and "talk"
+adds a new command, /spawn, that makes an imaginary friend appear and "talk", and /despawn, which despawns all of them
 
 ## tb-favicon.js (RECOMMENDED)
 
