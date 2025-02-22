@@ -31,7 +31,7 @@ adds a new command: /play `url`, that lets you play a sound that's less than 15 
 
 ## home-hover.js (RECOMMENDED)
 
-lets you hover on people's names to see their home, useful in case of an impersonation (doesn't work for changing names or entering/leaving rooms)
+lets you hover on people's names to see their home, useful in case of an impersonation (doesn't work for changing names or entering/leaving rooms) (inspired by a feature from [Trollbox 4](https://gist.github.com/DevinF06/ff1aba3c6229860cd3f61643d514d8c6))
 
 ## transcolor.js
 
