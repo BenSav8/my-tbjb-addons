@@ -33,6 +33,10 @@ adds a new command: /play `url`, that lets you play a sound that's less than 15 
 
 lets you hover on people's names to see their home, useful in case of an impersonation (doesn't work for changing names or entering/leaving rooms) (inspired by a feature from [Trollbox 4](https://gist.github.com/DevinF06/ff1aba3c6229860cd3f61643d514d8c6))
 
+## spamfilter.js (RECOMMENDED)
+
+makes overly long messages shorter by adding a scrollbar to long messages (inspired by a feature from [Trollbox+](https://trollboxplus.weebly.com/))
+
 ## transcolor.js
 
 adds a new command: /transcolor `on/off`, which when turned on makes every message change your color to a random one (breaks all commands except server-sided commands and /transcolor)
