@@ -49,7 +49,7 @@ lets you hover on people's names to see their home, useful in case of an imperso
 makes overly long messages shorter by adding a scrollbar to long messages (inspired by a feature from [Trollbox+](https://trollboxplus.weebly.com/))
 
 ## bg-color.js (RECOMMENDED)
-lets you use \$\[color\] to change the background color of the following text in your message, like \$(color)
+lets you use `$[color]` to change the background color of the following text in your message, like `$(color)`
 
 ## upcoming
 - autoupdate.js - autoupdates some addons
