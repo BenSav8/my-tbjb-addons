@@ -8,7 +8,7 @@ addons.register('messageReciever', function(data) {
 	data.msg = data.msg.replace(/\^\^(.*?)\^\^/g, '<sup>$1</sup>') // superscript
 	data.msg = data.msg.replace(/==(.*?)==/g, '<mark>$1</mark>') // highlight
 	data.msg = data.msg.replace(/\[(.*?)\]\((.*?)\)/g, function(match, txt, url) {
-		return '<a href="' + encodeURIComponent(url) + '">' + txt + '</a>';
+		return '<a href="' + url + '">' + txt + '</a>'; // removed encodeURIComponent so links don't just lead to https://www.windows93.net/trollbox/(url)
 	}) // hyperlink
 	let looped = ''
 	let lines = data.msg.split("&#10;")
