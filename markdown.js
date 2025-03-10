@@ -6,7 +6,6 @@ addons.register('messageReciever', function(data) {
 	data.msg = data.msg.replace(/~~~(.*?)~~~/g, '<del><sub>$1</sub></del>') // strikethrough + subscript
 	data.msg = data.msg.replace(/~~(.*?)~~/g, '<sub>$1</sub>') // subscript
 	data.msg = data.msg.replace(/\^\^(.*?)\^\^/g, '<sup>$1</sup>') // superscript
-	data.msg = data.msg.replace(/==(.*?)==/g, '<mark>$1</mark>') // highlight
 	data.msg = data.msg.replace(/__(.*?)__/g, '<u>$1</u>') // superscript
 	data.msg = data.msg.replace(/\[(.*?)\]\((.*?)\)/g, function(match, txt, url) {
 		// fixed it so that you can now send links properly
