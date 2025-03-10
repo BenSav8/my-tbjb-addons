@@ -7,6 +7,7 @@ addons.register('messageReciever', function(data) {
 	data.msg = data.msg.replace(/~~(.*?)~~/g, '<sub>$1</sub>') // subscript
 	data.msg = data.msg.replace(/\^\^(.*?)\^\^/g, '<sup>$1</sup>') // superscript
 	data.msg = data.msg.replace(/==(.*?)==/g, '<mark>$1</mark>') // highlight
+	data.msg = data.msg.replace(/__(.*?)__/g, '<u>$1</u>') // superscript
 	data.msg = data.msg.replace(/\[(.*?)\]\((.*?)\)/g, function(match, txt, url) {
 		// fixed it so that you can now send links properly
 		return '<bdi title="' + he.encode(url, {encodeEverything: true}) + '"><a style="text-decoration:underline; cursor: pointer;" onclick="javascript:window.open(atob(\'' + btoa(url) + '\'))">' + he.decode(txt) /* it display that properly now */ + '</a></bdi>';
