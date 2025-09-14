@@ -36,7 +36,7 @@ adds a new command: /transcolor `on/off`, which when turned on makes every messa
 ## markdown.js
 
 adds markdown formatting:
-`*italic* **bold** ~~subscript~~ ^^superscript^^ ==highlight== [hyperlink](https://example.com)`
+`*italic* **bold** ~~subscript~~ ^^superscript^^ [hyperlink](https://example.com)`
 `"# ", "## ", "### ", "#### ", "##### ", "###### " = headings `
 `--- = horizontal rule`
 
